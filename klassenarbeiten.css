@@ -1,0 +1,82 @@
+footer {
+    padding: 70px 0;
+    background-color: var(--secondary-color);
+}
+
+footer h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.gird_container {
+    margin: 60px auto;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    grid-template-areas: "item1 item1 item2 item3" "item4 item5 item5 item3";
+}
+
+.gird_item {
+    background-color: var(--light-secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+#item1 {
+    grid-area: item1;
+}
+
+#item2 {
+    grid-area: item2;
+}
+
+#item3 {
+    grid-area: item3;
+}
+
+#item4 {
+    grid-area: item4;
+}
+
+#item5 {
+    grid-area: item5;
+}
+
+#add1 {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#add2 {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#add3 {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#add4 {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#add5 {
+    font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 100px;
+}
